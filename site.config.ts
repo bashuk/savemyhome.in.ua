@@ -50,8 +50,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'English',
-      url: '/en',
+      title: '🇬🇧',
+      pageId: '0fc82c3870dd455da34242bd2d692cad',
+    },
+    {
+      title: '🇺🇦',
+      pageId: 'c4b84f78ac5d4ded9ab380f1dfcbca8a',
     },
     // {
     //   title: 'Contact',
