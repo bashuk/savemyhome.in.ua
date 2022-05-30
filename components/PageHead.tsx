@@ -49,7 +49,7 @@ export const PageHead: React.FC<
         </>
       )}
 
-      <meta property="og:image" content="/panorama_og_image.jpg" />
+      <meta property="og:image" content="/panorama_2400px.jpg" />
       <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="628" />
