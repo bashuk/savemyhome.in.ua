@@ -17,6 +17,21 @@ export default class MyDocument extends Document {
             <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
 
             <link rel='manifest' href='/manifest.json' />
+
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=G-S98P6928HB"
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-S98P6928HB', { page_path: window.location.pathname });
+                `,
+              }}
+            />
           </Head>
 
           <body>
