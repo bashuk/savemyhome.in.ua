@@ -23,12 +23,12 @@ module.exports = withBundleAnalyzer({
     return [
       {
         source: '/donate',
-        destination: '/c4b84f78ac5d4ded9ab380f1dfcbca8a#fabdc8b2aa904351a543b0b8a867a477',
+        destination: '/#fabdc8b2aa904351a543b0b8a867a477',
         permanent: false,
       },
       {
         source: '/en/donate',
-        destination: '/0fc82c3870dd455da34242bd2d692cad#c3b6093e5509494aa2748d08a04ce277',
+        destination: '/en#c3b6093e5509494aa2748d08a04ce277',
         permanent: false,
       },
     ]
