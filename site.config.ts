@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Врятуй Мій Дім',
   domain: 'savemyhome.in.ua',
-  author: '"Save My Home" Charity Fund',
+  author: 'Save My Home',
 
   // open graph metadata (optional)
   description: 'Благодійний фонд для відновлення будинку, розташованого на просп. Лобановського, 6-А у Києві, після російського ракетного обстрілу',
@@ -50,12 +50,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '🇬🇧',
-      pageId: '0fc82c3870dd455da34242bd2d692cad',
-    },
-    {
       title: '🇺🇦',
       pageId: 'c4b84f78ac5d4ded9ab380f1dfcbca8a',
+    },
+    {
+      title: '🇬🇧',
+      pageId: '0fc82c3870dd455da34242bd2d692cad',
     },
     // {
     //   title: 'Contact',
