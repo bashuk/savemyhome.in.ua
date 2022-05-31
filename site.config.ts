@@ -50,12 +50,16 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '🇺🇦',
-      pageId: 'c4b84f78ac5d4ded9ab380f1dfcbca8a',
+      title: '💳',
+      url: '?donate',
     },
     {
-      title: '🇬🇧',
-      pageId: '0fc82c3870dd455da34242bd2d692cad',
+      title: '|',
+      url: '?spacer',
+    },
+    {
+      title: '🗣',
+      url: '?locale_switch',
     },
     // {
     //   title: 'Contact',
