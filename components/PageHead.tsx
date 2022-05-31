@@ -17,6 +17,7 @@ export const PageHead: React.FC<
   title = title ?? site?.name
   description = description ?? site?.description
 
+  const socialImageUrl = '/panorama_og_image.jpg';
 
   return (
     <Head>
@@ -49,10 +50,12 @@ export const PageHead: React.FC<
         </>
       )}
 
-      <meta property="og:image" content="/panorama_2400px.jpg" />
+      <meta name='twitter:card' content='summary_large_image' />
+      <meta name='twitter:image' content={socialImageUrl} />
+      <meta property="og:image" content={socialImageUrl} />
       <meta property="og:image:type" content="image/jpeg" />
-      <meta property="og:image:width" content="2400" />
-      <meta property="og:image:height" content="1991" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="628" />
 
       {url && (
         <>
