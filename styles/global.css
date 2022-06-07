@@ -46,33 +46,33 @@ body {
   text-align: center;
   vertical-align: middle;
   padding: 12px 24px;
-  border: 1px solid #1e6fc6;
+  border: 1px solid #367bc1;
   border-radius: 10px;
-  background: #31b5ff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#31b5ff), to(#1e6fc6));
-  background: -moz-linear-gradient(top, #31b5ff, #1e6fc6);
-  background: linear-gradient(to bottom, #31b5ff, #1e6fc6);
-  -webkit-box-shadow: #2ea7ff 0px 0px 40px 0px;
-  -moz-box-shadow: #2ea7ff 0px 0px 40px 0px;
-  box-shadow: #2ea7ff 0px 0px 40px 0px;
-  text-shadow: #13467c 1px 1px 1px;
+  background: #57c8ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#57c8ff), to(#367bc1));
+  background: -moz-linear-gradient(top, #57c8ff, #367bc1);
+  background: linear-gradient(to bottom, #57c8ff, #367bc1);
+  -webkit-box-shadow: #50b9ff 0px 0px 40px 0px;
+  -moz-box-shadow: #50b9ff 0px 0px 40px 0px;
+  box-shadow: #50b9ff 0px 0px 40px 0px;
+  text-shadow: #224d79 1px 1px 1px;
   font: normal normal bold 20px arial;
   color: #ffffff;
   text-decoration: none;
 }
 .bodyDonateButton:hover,
 .bodyDonateButton:focus {
-  border: 1px solid #268bf7;
-  background: #3bd9ff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#3bd9ff), to(#2485ee));
-  background: -moz-linear-gradient(top, #3bd9ff, #2485ee);
-  background: linear-gradient(to bottom, #3bd9ff, #2485ee);
+  border: 1px solid #439af1;
+  background: #68f0ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#68f0ff), to(#4194e8));
+  background: -moz-linear-gradient(top, #68f0ff, #4194e8);
+  background: linear-gradient(to bottom, #68f0ff, #4194e8);
   color: #ffffff;
   text-decoration: none;
 }
 .bodyDonateButton:active {
-  background: #1e6fc6;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1e6fc6), to(#1e6fc6));
-  background: -moz-linear-gradient(top, #1e6fc6, #1e6fc6);
-  background: linear-gradient(to bottom, #1e6fc6, #1e6fc6);
+  background: #367bc1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#367bc1), to(#367bc1));
+  background: -moz-linear-gradient(top, #367bc1, #367bc1);
+  background: linear-gradient(to bottom, #367bc1, #367bc1);
 }
